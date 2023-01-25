@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Shortbread-Mapnik",
+  "name": "shortbread",
   "metadata": {
     "magnacarto:maplibre": "mbgljs"
   },
@@ -13,7 +13,7 @@
     {
       "id": "oce-0",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "ocean",
       "filter": [
         "all"
@@ -31,7 +31,7 @@
     {
       "id": "lan-for-0",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -54,7 +54,7 @@
     {
       "id": "lan-for-1",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -77,7 +77,7 @@
     {
       "id": "lan-for-2",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -100,7 +100,7 @@
     {
       "id": "lan-for-3",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -123,7 +123,7 @@
     {
       "id": "lan-min-4",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -146,7 +146,7 @@
     {
       "id": "lan-gra-5",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -180,7 +180,7 @@
     {
       "id": "lan-qua-7",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -203,7 +203,7 @@
     {
       "id": "lan-gar-8",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -397,7 +397,7 @@
     {
       "id": "lan-woo-30",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -431,7 +431,7 @@
     {
       "id": "lan-res-32",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -497,7 +497,7 @@
     {
       "id": "lan-far-38",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -547,7 +547,7 @@
     {
       "id": "lan-san-42",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -581,7 +581,7 @@
     {
       "id": "lan-shi-44",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "any",
@@ -623,7 +623,7 @@
     {
       "id": "lan-pie-47",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "land",
       "filter": [
         "all",
@@ -646,7 +646,7 @@
     {
       "id": "sit-hos-0",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "sites",
       "filter": [
         "all",
@@ -669,7 +669,7 @@
     {
       "id": "sit-uni-1",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "sites",
       "filter": [
         "any",
@@ -703,7 +703,7 @@
     {
       "id": "wat-pol-gla-0",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons",
       "filter": [
         "all",
@@ -726,7 +726,7 @@
     {
       "id": "wat-pol-gla-1",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons",
       "filter": [
         "all",
@@ -749,7 +749,7 @@
     {
       "id": "wat-pol-can-2",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons",
       "filter": [
         "any",
@@ -815,7 +815,7 @@
     {
       "id": "wat-pol-gla-8",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons",
       "filter": [
         "all",
@@ -838,7 +838,7 @@
     {
       "id": "wat-lin-riv-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "all",
@@ -861,7 +861,7 @@
     {
       "id": "wat-lin-riv-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "all",
@@ -884,7 +884,7 @@
     {
       "id": "wat-lin-riv-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -918,7 +918,7 @@
     {
       "id": "wat-lin-str-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -952,7 +952,7 @@
     {
       "id": "wat-lin-riv-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -986,7 +986,7 @@
     {
       "id": "wat-lin-dit-8",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "all",
@@ -1009,7 +1009,7 @@
     {
       "id": "wat-lin-str-9",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -1043,7 +1043,7 @@
     {
       "id": "wat-lin-riv-11",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -1077,7 +1077,7 @@
     {
       "id": "wat-lin-dra-13",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "all",
@@ -1100,7 +1100,7 @@
     {
       "id": "wat-lin-riv-14",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -1134,7 +1134,7 @@
     {
       "id": "wat-lin-str-16",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "all",
@@ -1157,7 +1157,7 @@
     {
       "id": "wat-lin-riv-17",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -1191,7 +1191,7 @@
     {
       "id": "wat-lin-riv-19",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines",
       "filter": [
         "any",
@@ -1225,7 +1225,7 @@
     {
       "id": "bui-0",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "buildings",
       "filter": [
         "all"
@@ -1243,7 +1243,7 @@
     {
       "id": "bui-1",
       "type": "fill",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "buildings",
       "filter": [
         "all"
@@ -1261,7 +1261,7 @@
     {
       "id": "bou-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1289,7 +1289,7 @@
     {
       "id": "bou-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1317,7 +1317,7 @@
     {
       "id": "bou-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1345,7 +1345,7 @@
     {
       "id": "bou-3",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1373,7 +1373,7 @@
     {
       "id": "bou-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1401,7 +1401,7 @@
     {
       "id": "bou-5",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1429,7 +1429,7 @@
     {
       "id": "bou-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1457,7 +1457,7 @@
     {
       "id": "bou-7",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundaries",
       "filter": [
         "all",
@@ -1485,7 +1485,7 @@
     {
       "id": "tun-mot-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1522,7 +1522,7 @@
     {
       "id": "tun-mot-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1559,7 +1559,7 @@
     {
       "id": "tun-mot-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1596,7 +1596,7 @@
     {
       "id": "tun-mot-3",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1633,7 +1633,7 @@
     {
       "id": "tun-mot-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1670,7 +1670,7 @@
     {
       "id": "tun-mot-5",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1707,7 +1707,7 @@
     {
       "id": "tun-unc-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1736,7 +1736,7 @@
     {
       "id": "tun-pat-12",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -1823,7 +1823,7 @@
     {
       "id": "tun-liv-17",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1855,7 +1855,7 @@
     {
       "id": "tun-ped-18",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -1887,7 +1887,7 @@
     {
       "id": "tun-ser-19",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -1935,7 +1935,7 @@
     {
       "id": "tun-unc-21",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -1983,7 +1983,7 @@
     {
       "id": "tun-ter-23",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2015,7 +2015,7 @@
     {
       "id": "tun-sec-24",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2047,7 +2047,7 @@
     {
       "id": "tun-pri-25",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2079,7 +2079,7 @@
     {
       "id": "tun-tru-26",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2111,7 +2111,7 @@
     {
       "id": "tun-mot-27",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2143,7 +2143,7 @@
     {
       "id": "tun-pat-28",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2230,7 +2230,7 @@
     {
       "id": "tun-liv-33",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2262,7 +2262,7 @@
     {
       "id": "tun-ped-34",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2294,7 +2294,7 @@
     {
       "id": "tun-ser-35",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2342,7 +2342,7 @@
     {
       "id": "tun-unc-37",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2390,7 +2390,7 @@
     {
       "id": "tun-ter-39",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2422,7 +2422,7 @@
     {
       "id": "tun-sec-40",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2454,7 +2454,7 @@
     {
       "id": "tun-pri-41",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2486,7 +2486,7 @@
     {
       "id": "tun-tru-42",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2518,7 +2518,7 @@
     {
       "id": "tun-mot-43",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2550,7 +2550,7 @@
     {
       "id": "tun-liv-44",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2582,7 +2582,7 @@
     {
       "id": "tun-ped-45",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2614,7 +2614,7 @@
     {
       "id": "tun-ser-46",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2662,7 +2662,7 @@
     {
       "id": "tun-unc-48",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2710,7 +2710,7 @@
     {
       "id": "tun-ter-50",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2742,7 +2742,7 @@
     {
       "id": "tun-sec-51",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2774,7 +2774,7 @@
     {
       "id": "tun-pri-52",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2806,7 +2806,7 @@
     {
       "id": "tun-tru-53",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2838,7 +2838,7 @@
     {
       "id": "tun-mot-54",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2870,7 +2870,7 @@
     {
       "id": "tun-pat-55",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -2957,7 +2957,7 @@
     {
       "id": "tun-liv-60",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -2989,7 +2989,7 @@
     {
       "id": "tun-ped-61",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3021,7 +3021,7 @@
     {
       "id": "tun-ser-62",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3069,7 +3069,7 @@
     {
       "id": "tun-unc-64",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3117,7 +3117,7 @@
     {
       "id": "tun-ter-66",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3149,7 +3149,7 @@
     {
       "id": "tun-sec-67",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3181,7 +3181,7 @@
     {
       "id": "tun-tra-68",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3213,7 +3213,7 @@
     {
       "id": "tun-pat-69",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3300,7 +3300,7 @@
     {
       "id": "tun-liv-74",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3332,7 +3332,7 @@
     {
       "id": "tun-ped-75",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3364,7 +3364,7 @@
     {
       "id": "tun-unc-76",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3412,7 +3412,7 @@
     {
       "id": "tun-ter-78",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3444,7 +3444,7 @@
     {
       "id": "tun-sec-79",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3476,7 +3476,7 @@
     {
       "id": "tun-pri-80",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3508,7 +3508,7 @@
     {
       "id": "tun-tru-81",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3540,7 +3540,7 @@
     {
       "id": "tun-mot-82",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3572,7 +3572,7 @@
     {
       "id": "tun-liv-83",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3604,7 +3604,7 @@
     {
       "id": "tun-ped-84",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3636,7 +3636,7 @@
     {
       "id": "tun-unc-85",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3684,7 +3684,7 @@
     {
       "id": "tun-ter-87",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3716,7 +3716,7 @@
     {
       "id": "tun-sec-88",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3748,7 +3748,7 @@
     {
       "id": "tun-liv-89",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3780,7 +3780,7 @@
     {
       "id": "tun-ped-90",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3812,7 +3812,7 @@
     {
       "id": "tun-unc-91",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -3860,7 +3860,7 @@
     {
       "id": "tun-ter-93",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3892,7 +3892,7 @@
     {
       "id": "tun-sec-94",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3924,7 +3924,7 @@
     {
       "id": "tun-pri-95",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3956,7 +3956,7 @@
     {
       "id": "tun-tru-96",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -3988,7 +3988,7 @@
     {
       "id": "tun-mot-97",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4020,7 +4020,7 @@
     {
       "id": "tun-ter-98",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4052,7 +4052,7 @@
     {
       "id": "tun-sec-99",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4084,7 +4084,7 @@
     {
       "id": "tun-pri-100",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4116,7 +4116,7 @@
     {
       "id": "tun-tru-101",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4148,7 +4148,7 @@
     {
       "id": "tun-mot-102",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4180,7 +4180,7 @@
     {
       "id": "tun-pat-103",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4267,7 +4267,7 @@
     {
       "id": "tun-pat-108",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4354,7 +4354,7 @@
     {
       "id": "tun-pat-113",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4441,7 +4441,7 @@
     {
       "id": "tun-tra-118",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4473,7 +4473,7 @@
     {
       "id": "tun-pat-119",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4560,7 +4560,7 @@
     {
       "id": "tun-fun-124",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4628,7 +4628,7 @@
     {
       "id": "tun-tra-126",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4670,7 +4670,7 @@
     {
       "id": "tun-lig-127",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4712,7 +4712,7 @@
     {
       "id": "tun-sub-128",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4754,7 +4754,7 @@
     {
       "id": "tun-nar-129",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4796,7 +4796,7 @@
     {
       "id": "tun-nar-130",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4838,7 +4838,7 @@
     {
       "id": "tun-rai-134",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4891,7 +4891,7 @@
     {
       "id": "tun-rai-139",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -4944,7 +4944,7 @@
     {
       "id": "tun-ser-142",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -4977,7 +4977,7 @@
     {
       "id": "tun-mot-143",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5010,7 +5010,7 @@
     {
       "id": "tun-ser-144",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5043,7 +5043,7 @@
     {
       "id": "tun-mot-145",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5076,7 +5076,7 @@
     {
       "id": "tun-ser-146",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5109,7 +5109,7 @@
     {
       "id": "tun-mot-147",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5142,7 +5142,7 @@
     {
       "id": "tun-ser-148",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5175,7 +5175,7 @@
     {
       "id": "tun-tra-149",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -5283,7 +5283,7 @@
     {
       "id": "tun-tra-154",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5317,7 +5317,7 @@
     {
       "id": "tun-ser-155",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5350,7 +5350,7 @@
     {
       "id": "tun-mot-156",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5383,7 +5383,7 @@
     {
       "id": "tun-mot-157",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5416,7 +5416,7 @@
     {
       "id": "tun-mot-158",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5449,7 +5449,7 @@
     {
       "id": "tun-unc-159",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -5493,7 +5493,7 @@
     {
       "id": "tun-rac-161",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5521,7 +5521,7 @@
     {
       "id": "tun-rac-162",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5549,7 +5549,7 @@
     {
       "id": "tun-ped-163",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5577,7 +5577,7 @@
     {
       "id": "tun-ser-164",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -5621,7 +5621,7 @@
     {
       "id": "tun-liv-166",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5649,7 +5649,7 @@
     {
       "id": "tun-unc-167",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -5693,7 +5693,7 @@
     {
       "id": "tun-ter-169",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5721,7 +5721,7 @@
     {
       "id": "tun-sec-170",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5749,7 +5749,7 @@
     {
       "id": "tun-pri-171",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5777,7 +5777,7 @@
     {
       "id": "tun-tru-172",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5805,7 +5805,7 @@
     {
       "id": "tun-mot-173",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5833,7 +5833,7 @@
     {
       "id": "tun-rac-174",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5861,7 +5861,7 @@
     {
       "id": "tun-ped-175",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5889,7 +5889,7 @@
     {
       "id": "tun-ser-176",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -5933,7 +5933,7 @@
     {
       "id": "tun-liv-178",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -5961,7 +5961,7 @@
     {
       "id": "tun-unc-179",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6005,7 +6005,7 @@
     {
       "id": "tun-ter-181",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6033,7 +6033,7 @@
     {
       "id": "tun-sec-182",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6061,7 +6061,7 @@
     {
       "id": "tun-pri-183",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6089,7 +6089,7 @@
     {
       "id": "tun-tru-184",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6117,7 +6117,7 @@
     {
       "id": "tun-mot-185",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6145,7 +6145,7 @@
     {
       "id": "tun-ped-186",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6173,7 +6173,7 @@
     {
       "id": "tun-ser-187",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6217,7 +6217,7 @@
     {
       "id": "tun-liv-189",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6245,7 +6245,7 @@
     {
       "id": "tun-unc-190",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6289,7 +6289,7 @@
     {
       "id": "tun-ter-192",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6317,7 +6317,7 @@
     {
       "id": "tun-sec-193",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6345,7 +6345,7 @@
     {
       "id": "tun-pri-194",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6373,7 +6373,7 @@
     {
       "id": "tun-tru-195",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6401,7 +6401,7 @@
     {
       "id": "tun-mot-196",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6429,7 +6429,7 @@
     {
       "id": "tun-tax-197",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6457,7 +6457,7 @@
     {
       "id": "tun-run-198",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6485,7 +6485,7 @@
     {
       "id": "tun-pla-199",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6513,7 +6513,7 @@
     {
       "id": "tun-ped-200",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6541,7 +6541,7 @@
     {
       "id": "tun-ser-201",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6585,7 +6585,7 @@
     {
       "id": "tun-liv-203",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6613,7 +6613,7 @@
     {
       "id": "tun-unc-204",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6657,7 +6657,7 @@
     {
       "id": "tun-ter-206",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6685,7 +6685,7 @@
     {
       "id": "tun-sec-207",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6713,7 +6713,7 @@
     {
       "id": "tun-tax-208",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6741,7 +6741,7 @@
     {
       "id": "tun-run-209",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6769,7 +6769,7 @@
     {
       "id": "tun-tra-210",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6798,7 +6798,7 @@
     {
       "id": "tun-pat-211",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -6885,7 +6885,7 @@
     {
       "id": "tun-rac-216",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6913,7 +6913,7 @@
     {
       "id": "tun-ped-217",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6941,7 +6941,7 @@
     {
       "id": "tun-roa-218",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6969,7 +6969,7 @@
     {
       "id": "tun-liv-219",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -6997,7 +6997,7 @@
     {
       "id": "tun-unc-220",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7041,7 +7041,7 @@
     {
       "id": "tun-ter-222",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7069,7 +7069,7 @@
     {
       "id": "tun-sec-223",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7097,7 +7097,7 @@
     {
       "id": "tun-pri-224",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7125,7 +7125,7 @@
     {
       "id": "tun-tru-225",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7153,7 +7153,7 @@
     {
       "id": "tun-mot-226",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7181,7 +7181,7 @@
     {
       "id": "tun-fun-227",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7229,7 +7229,7 @@
     {
       "id": "tun-tax-229",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7257,7 +7257,7 @@
     {
       "id": "tun-run-230",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7285,7 +7285,7 @@
     {
       "id": "tun-rac-231",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7313,7 +7313,7 @@
     {
       "id": "tun-ped-232",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7357,7 +7357,7 @@
     {
       "id": "tun-unc-234",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7401,7 +7401,7 @@
     {
       "id": "tun-ter-236",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7429,7 +7429,7 @@
     {
       "id": "tun-sec-237",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7457,7 +7457,7 @@
     {
       "id": "tun-tra-238",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7489,7 +7489,7 @@
     {
       "id": "tun-tax-239",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7517,7 +7517,7 @@
     {
       "id": "tun-run-240",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7545,7 +7545,7 @@
     {
       "id": "tun-rac-241",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7573,7 +7573,7 @@
     {
       "id": "tun-ped-242",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7617,7 +7617,7 @@
     {
       "id": "tun-unc-244",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7661,7 +7661,7 @@
     {
       "id": "tun-ter-246",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7689,7 +7689,7 @@
     {
       "id": "tun-sec-247",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7717,7 +7717,7 @@
     {
       "id": "tun-pri-248",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7745,7 +7745,7 @@
     {
       "id": "tun-tru-249",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7773,7 +7773,7 @@
     {
       "id": "tun-mot-250",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7801,7 +7801,7 @@
     {
       "id": "tun-lig-251",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -7862,7 +7862,7 @@
     {
       "id": "tun-run-254",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7890,7 +7890,7 @@
     {
       "id": "tun-rac-255",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7918,7 +7918,7 @@
     {
       "id": "tun-ter-256",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7946,7 +7946,7 @@
     {
       "id": "tun-sec-257",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -7974,7 +7974,7 @@
     {
       "id": "tun-pri-258",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8002,7 +8002,7 @@
     {
       "id": "tun-tru-259",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8030,7 +8030,7 @@
     {
       "id": "tun-mot-260",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8058,7 +8058,7 @@
     {
       "id": "tun-run-261",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8086,7 +8086,7 @@
     {
       "id": "tun-sec-262",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8114,7 +8114,7 @@
     {
       "id": "tun-pri-263",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8142,7 +8142,7 @@
     {
       "id": "tun-tru-264",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8170,7 +8170,7 @@
     {
       "id": "tun-nar-265",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8202,7 +8202,7 @@
     {
       "id": "tun-ter-266",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8230,7 +8230,7 @@
     {
       "id": "tun-sec-267",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8258,7 +8258,7 @@
     {
       "id": "tun-pri-268",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8286,7 +8286,7 @@
     {
       "id": "tun-tru-269",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8314,7 +8314,7 @@
     {
       "id": "tun-sec-270",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8342,7 +8342,7 @@
     {
       "id": "tun-pri-271",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8370,7 +8370,7 @@
     {
       "id": "tun-tru-272",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8398,7 +8398,7 @@
     {
       "id": "tun-pri-273",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8426,7 +8426,7 @@
     {
       "id": "tun-tru-274",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8454,7 +8454,7 @@
     {
       "id": "tun-tru-275",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8482,7 +8482,7 @@
     {
       "id": "tun-tru-276",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8510,7 +8510,7 @@
     {
       "id": "str-cas-low-ter-7",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8534,7 +8534,7 @@
     {
       "id": "str-cas-low-sec-8",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8558,7 +8558,7 @@
     {
       "id": "str-cas-low-ter-9",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8582,7 +8582,7 @@
     {
       "id": "str-cas-low-sec-10",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8606,7 +8606,7 @@
     {
       "id": "str-cas-low-sec-11",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8630,7 +8630,7 @@
     {
       "id": "str-cas-mot-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8668,7 +8668,7 @@
     {
       "id": "str-cas-mot-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8706,7 +8706,7 @@
     {
       "id": "str-cas-mot-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8744,7 +8744,7 @@
     {
       "id": "str-cas-mot-3",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8782,7 +8782,7 @@
     {
       "id": "str-cas-mot-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8820,7 +8820,7 @@
     {
       "id": "str-cas-mot-5",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8858,7 +8858,7 @@
     {
       "id": "str-cas-unc-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8892,7 +8892,7 @@
     {
       "id": "str-cas-liv-12",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8925,7 +8925,7 @@
     {
       "id": "str-cas-ped-13",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -8958,7 +8958,7 @@
     {
       "id": "str-cas-ser-14",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9012,7 +9012,7 @@
     {
       "id": "str-cas-unc-16",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9066,7 +9066,7 @@
     {
       "id": "str-cas-ter-18",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9099,7 +9099,7 @@
     {
       "id": "str-cas-sec-19",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9132,7 +9132,7 @@
     {
       "id": "str-cas-pri-20",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9165,7 +9165,7 @@
     {
       "id": "str-cas-tru-21",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9198,7 +9198,7 @@
     {
       "id": "str-cas-mot-22",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9231,7 +9231,7 @@
     {
       "id": "str-cas-liv-23",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9264,7 +9264,7 @@
     {
       "id": "str-cas-ped-24",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9297,7 +9297,7 @@
     {
       "id": "str-cas-ser-25",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9351,7 +9351,7 @@
     {
       "id": "str-cas-unc-27",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9405,7 +9405,7 @@
     {
       "id": "str-cas-ter-29",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9438,7 +9438,7 @@
     {
       "id": "str-cas-sec-30",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9471,7 +9471,7 @@
     {
       "id": "str-cas-pri-31",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9504,7 +9504,7 @@
     {
       "id": "str-cas-tru-32",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9537,7 +9537,7 @@
     {
       "id": "str-cas-mot-33",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9570,7 +9570,7 @@
     {
       "id": "str-cas-liv-34",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9603,7 +9603,7 @@
     {
       "id": "str-cas-ped-35",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9636,7 +9636,7 @@
     {
       "id": "str-cas-ser-36",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9690,7 +9690,7 @@
     {
       "id": "str-cas-unc-38",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -9744,7 +9744,7 @@
     {
       "id": "str-cas-ter-40",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9777,7 +9777,7 @@
     {
       "id": "str-cas-sec-41",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9810,7 +9810,7 @@
     {
       "id": "str-cas-pri-42",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9843,7 +9843,7 @@
     {
       "id": "str-cas-tru-43",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9876,7 +9876,7 @@
     {
       "id": "str-cas-mot-44",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9909,7 +9909,7 @@
     {
       "id": "str-cas-liv-45",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9942,7 +9942,7 @@
     {
       "id": "str-cas-ped-46",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -9975,7 +9975,7 @@
     {
       "id": "str-cas-ser-47",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -10029,7 +10029,7 @@
     {
       "id": "str-cas-unc-49",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -10083,7 +10083,7 @@
     {
       "id": "str-cas-ter-51",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10116,7 +10116,7 @@
     {
       "id": "str-cas-sec-52",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10149,7 +10149,7 @@
     {
       "id": "str-cas-liv-53",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10182,7 +10182,7 @@
     {
       "id": "str-cas-ped-54",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10215,7 +10215,7 @@
     {
       "id": "str-cas-unc-55",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -10269,7 +10269,7 @@
     {
       "id": "str-cas-ter-57",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10302,7 +10302,7 @@
     {
       "id": "str-cas-sec-58",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10335,7 +10335,7 @@
     {
       "id": "str-cas-pri-59",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10368,7 +10368,7 @@
     {
       "id": "str-cas-tru-60",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10401,7 +10401,7 @@
     {
       "id": "str-cas-mot-61",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10434,7 +10434,7 @@
     {
       "id": "str-cas-liv-62",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10467,7 +10467,7 @@
     {
       "id": "str-cas-ped-63",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10500,7 +10500,7 @@
     {
       "id": "str-cas-unc-64",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -10554,7 +10554,7 @@
     {
       "id": "str-cas-ter-66",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10587,7 +10587,7 @@
     {
       "id": "str-cas-sec-67",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10620,7 +10620,7 @@
     {
       "id": "str-cas-liv-68",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10653,7 +10653,7 @@
     {
       "id": "str-cas-ped-69",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10686,7 +10686,7 @@
     {
       "id": "str-cas-unc-70",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -10740,7 +10740,7 @@
     {
       "id": "str-cas-ter-72",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10773,7 +10773,7 @@
     {
       "id": "str-cas-sec-73",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10806,7 +10806,7 @@
     {
       "id": "str-cas-pri-74",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10839,7 +10839,7 @@
     {
       "id": "str-cas-tru-75",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10872,7 +10872,7 @@
     {
       "id": "str-cas-mot-76",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10905,7 +10905,7 @@
     {
       "id": "str-cas-ter-77",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10938,7 +10938,7 @@
     {
       "id": "str-cas-sec-78",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -10971,7 +10971,7 @@
     {
       "id": "str-cas-pri-79",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11004,7 +11004,7 @@
     {
       "id": "str-cas-tru-80",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11037,7 +11037,7 @@
     {
       "id": "str-cas-mot-81",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11070,7 +11070,7 @@
     {
       "id": "str-fil-low-nar-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11103,7 +11103,7 @@
     {
       "id": "str-fil-low-mot-7",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11131,7 +11131,7 @@
     {
       "id": "str-fil-low-mot-8",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11159,7 +11159,7 @@
     {
       "id": "str-fil-low-mot-9",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11187,7 +11187,7 @@
     {
       "id": "str-fil-low-mot-12",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11215,7 +11215,7 @@
     {
       "id": "str-fil-low-mot-13",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11243,7 +11243,7 @@
     {
       "id": "str-fil-low-mot-14",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11271,7 +11271,7 @@
     {
       "id": "str-fil-low-rai-15",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -11310,7 +11310,7 @@
     {
       "id": "str-fil-low-mot-17",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11338,7 +11338,7 @@
     {
       "id": "str-fil-low-run-137",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11361,7 +11361,7 @@
     {
       "id": "str-fil-low-sec-138",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11384,7 +11384,7 @@
     {
       "id": "str-fil-low-pri-139",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11407,7 +11407,7 @@
     {
       "id": "str-fil-low-tru-140",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11430,7 +11430,7 @@
     {
       "id": "str-fil-low-nar-141",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11453,7 +11453,7 @@
     {
       "id": "str-fil-low-ter-142",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11476,7 +11476,7 @@
     {
       "id": "str-fil-low-sec-143",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11499,7 +11499,7 @@
     {
       "id": "str-fil-low-pri-144",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11522,7 +11522,7 @@
     {
       "id": "str-fil-low-tru-145",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11545,7 +11545,7 @@
     {
       "id": "str-fil-low-sec-146",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11568,7 +11568,7 @@
     {
       "id": "str-fil-low-pri-147",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11591,7 +11591,7 @@
     {
       "id": "str-fil-low-tru-148",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11614,7 +11614,7 @@
     {
       "id": "str-fil-low-pri-149",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11637,7 +11637,7 @@
     {
       "id": "str-fil-low-tru-150",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11660,7 +11660,7 @@
     {
       "id": "str-fil-low-tru-151",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11683,7 +11683,7 @@
     {
       "id": "str-fil-low-tru-152",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11706,7 +11706,7 @@
     {
       "id": "str-fil-fun-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11749,7 +11749,7 @@
     {
       "id": "str-fil-rai-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11792,7 +11792,7 @@
     {
       "id": "str-fil-tra-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11835,7 +11835,7 @@
     {
       "id": "str-fil-lig-3",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11878,7 +11878,7 @@
     {
       "id": "str-fil-sub-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11921,7 +11921,7 @@
     {
       "id": "str-fil-nar-5",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -11964,7 +11964,7 @@
     {
       "id": "str-fil-nar-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12007,7 +12007,7 @@
     {
       "id": "str-fil-rai-10",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12066,7 +12066,7 @@
     {
       "id": "str-fil-rai-15",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12125,7 +12125,7 @@
     {
       "id": "str-fil-ser-18",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12163,7 +12163,7 @@
     {
       "id": "str-fil-mot-19",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12201,7 +12201,7 @@
     {
       "id": "str-fil-ser-20",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12239,7 +12239,7 @@
     {
       "id": "str-fil-mot-21",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12277,7 +12277,7 @@
     {
       "id": "str-fil-ser-22",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12315,7 +12315,7 @@
     {
       "id": "str-fil-mot-23",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12353,7 +12353,7 @@
     {
       "id": "str-fil-ser-24",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12391,7 +12391,7 @@
     {
       "id": "str-fil-tra-25",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12524,7 +12524,7 @@
     {
       "id": "str-fil-tra-30",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12563,7 +12563,7 @@
     {
       "id": "str-fil-ser-31",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12601,7 +12601,7 @@
     {
       "id": "str-fil-mot-32",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12639,7 +12639,7 @@
     {
       "id": "str-fil-mot-33",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12677,7 +12677,7 @@
     {
       "id": "str-fil-mot-34",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12715,7 +12715,7 @@
     {
       "id": "str-fil-unc-35",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12769,7 +12769,7 @@
     {
       "id": "str-fil-rac-37",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12802,7 +12802,7 @@
     {
       "id": "str-fil-rac-38",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12835,7 +12835,7 @@
     {
       "id": "str-fil-ped-39",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -12868,7 +12868,7 @@
     {
       "id": "str-fil-ser-40",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12922,7 +12922,7 @@
     {
       "id": "str-fil-liv-42",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -12994,7 +12994,7 @@
     {
       "id": "str-fil-ter-45",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13027,7 +13027,7 @@
     {
       "id": "str-fil-sec-46",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13060,7 +13060,7 @@
     {
       "id": "str-fil-pri-47",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13093,7 +13093,7 @@
     {
       "id": "str-fil-tru-48",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13126,7 +13126,7 @@
     {
       "id": "str-fil-mot-49",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13159,7 +13159,7 @@
     {
       "id": "str-fil-rac-50",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13192,7 +13192,7 @@
     {
       "id": "str-fil-ped-51",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13225,7 +13225,7 @@
     {
       "id": "str-fil-ser-52",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -13279,7 +13279,7 @@
     {
       "id": "str-fil-liv-54",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -13351,7 +13351,7 @@
     {
       "id": "str-fil-ter-57",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13384,7 +13384,7 @@
     {
       "id": "str-fil-sec-58",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13417,7 +13417,7 @@
     {
       "id": "str-fil-pri-59",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13450,7 +13450,7 @@
     {
       "id": "str-fil-tru-60",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13483,7 +13483,7 @@
     {
       "id": "str-fil-mot-61",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13516,7 +13516,7 @@
     {
       "id": "str-fil-ped-62",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13549,7 +13549,7 @@
     {
       "id": "str-fil-ser-63",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -13603,7 +13603,7 @@
     {
       "id": "str-fil-liv-65",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -13675,7 +13675,7 @@
     {
       "id": "str-fil-ter-68",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13708,7 +13708,7 @@
     {
       "id": "str-fil-sec-69",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13741,7 +13741,7 @@
     {
       "id": "str-fil-pri-70",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13774,7 +13774,7 @@
     {
       "id": "str-fil-tru-71",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13807,7 +13807,7 @@
     {
       "id": "str-fil-mot-72",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13840,7 +13840,7 @@
     {
       "id": "str-fil-tax-73",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13873,7 +13873,7 @@
     {
       "id": "str-fil-run-74",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13906,7 +13906,7 @@
     {
       "id": "str-fil-pla-75",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13939,7 +13939,7 @@
     {
       "id": "str-fil-ped-76",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -13972,7 +13972,7 @@
     {
       "id": "str-fil-ser-77",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14026,7 +14026,7 @@
     {
       "id": "str-fil-liv-79",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14098,7 +14098,7 @@
     {
       "id": "str-fil-ter-82",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14131,7 +14131,7 @@
     {
       "id": "str-fil-sec-83",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14164,7 +14164,7 @@
     {
       "id": "str-fil-tax-84",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14197,7 +14197,7 @@
     {
       "id": "str-fil-run-85",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14230,7 +14230,7 @@
     {
       "id": "str-fil-tra-86",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14264,7 +14264,7 @@
     {
       "id": "str-fil-pat-87",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14376,7 +14376,7 @@
     {
       "id": "str-fil-rac-92",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14409,7 +14409,7 @@
     {
       "id": "str-fil-ped-93",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14442,7 +14442,7 @@
     {
       "id": "str-fil-roa-94",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14475,7 +14475,7 @@
     {
       "id": "str-fil-liv-95",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14547,7 +14547,7 @@
     {
       "id": "str-fil-ter-98",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14580,7 +14580,7 @@
     {
       "id": "str-fil-sec-99",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14613,7 +14613,7 @@
     {
       "id": "str-fil-pri-100",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14646,7 +14646,7 @@
     {
       "id": "str-fil-tru-101",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14679,7 +14679,7 @@
     {
       "id": "str-fil-mot-102",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14712,7 +14712,7 @@
     {
       "id": "str-fil-fun-103",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14766,7 +14766,7 @@
     {
       "id": "str-fil-tax-105",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14799,7 +14799,7 @@
     {
       "id": "str-fil-run-106",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14832,7 +14832,7 @@
     {
       "id": "str-fil-rac-107",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14865,7 +14865,7 @@
     {
       "id": "str-fil-ped-108",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -14955,7 +14955,7 @@
     {
       "id": "str-fil-ter-112",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -14988,7 +14988,7 @@
     {
       "id": "str-fil-sec-113",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15021,7 +15021,7 @@
     {
       "id": "str-fil-tra-114",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15054,7 +15054,7 @@
     {
       "id": "str-fil-tax-115",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15087,7 +15087,7 @@
     {
       "id": "str-fil-run-116",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15120,7 +15120,7 @@
     {
       "id": "str-fil-rac-117",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15153,7 +15153,7 @@
     {
       "id": "str-fil-ped-118",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -15207,7 +15207,7 @@
     {
       "id": "str-fil-unc-120",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -15261,7 +15261,7 @@
     {
       "id": "str-fil-ter-122",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15294,7 +15294,7 @@
     {
       "id": "str-fil-sec-123",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15327,7 +15327,7 @@
     {
       "id": "str-fil-pri-124",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15360,7 +15360,7 @@
     {
       "id": "str-fil-tru-125",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15393,7 +15393,7 @@
     {
       "id": "str-fil-mot-126",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15426,7 +15426,7 @@
     {
       "id": "str-fil-lig-127",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -15498,7 +15498,7 @@
     {
       "id": "str-fil-run-130",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15531,7 +15531,7 @@
     {
       "id": "str-fil-rac-131",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15564,7 +15564,7 @@
     {
       "id": "str-fil-ter-132",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15597,7 +15597,7 @@
     {
       "id": "str-fil-sec-133",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15630,7 +15630,7 @@
     {
       "id": "str-fil-pri-134",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15663,7 +15663,7 @@
     {
       "id": "str-fil-tru-135",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15696,7 +15696,7 @@
     {
       "id": "str-fil-mot-136",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15729,7 +15729,7 @@
     {
       "id": "str-fil-run-137",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15762,7 +15762,7 @@
     {
       "id": "str-fil-sec-138",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15795,7 +15795,7 @@
     {
       "id": "str-fil-pri-139",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15828,7 +15828,7 @@
     {
       "id": "str-fil-tru-140",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15861,7 +15861,7 @@
     {
       "id": "str-fil-nar-141",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15894,7 +15894,7 @@
     {
       "id": "str-fil-ter-142",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15927,7 +15927,7 @@
     {
       "id": "str-fil-sec-143",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15960,7 +15960,7 @@
     {
       "id": "str-fil-pri-144",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -15993,7 +15993,7 @@
     {
       "id": "str-fil-tru-145",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16026,7 +16026,7 @@
     {
       "id": "str-fil-sec-146",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16059,7 +16059,7 @@
     {
       "id": "str-fil-pri-147",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16092,7 +16092,7 @@
     {
       "id": "str-fil-tru-148",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16125,7 +16125,7 @@
     {
       "id": "str-fil-pri-149",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16158,7 +16158,7 @@
     {
       "id": "str-fil-tru-150",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16191,7 +16191,7 @@
     {
       "id": "str-fil-tru-151",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16224,7 +16224,7 @@
     {
       "id": "str-fil-tru-152",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16257,7 +16257,7 @@
     {
       "id": "bri-mot-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16290,7 +16290,7 @@
     {
       "id": "bri-mot-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16323,7 +16323,7 @@
     {
       "id": "bri-mot-2",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16356,7 +16356,7 @@
     {
       "id": "bri-tra-3",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16389,7 +16389,7 @@
     {
       "id": "bri-mot-4",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16422,7 +16422,7 @@
     {
       "id": "bri-mot-5",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16455,7 +16455,7 @@
     {
       "id": "bri-mot-6",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16488,7 +16488,7 @@
     {
       "id": "bri-unc-7",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -16517,7 +16517,7 @@
     {
       "id": "bri-pat-13",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16600,7 +16600,7 @@
     {
       "id": "bri-liv-18",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16644,7 +16644,7 @@
     {
       "id": "bri-ser-20",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16688,7 +16688,7 @@
     {
       "id": "bri-unc-22",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16732,7 +16732,7 @@
     {
       "id": "bri-ter-24",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16815,7 +16815,7 @@
     {
       "id": "bri-pat-29",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16898,7 +16898,7 @@
     {
       "id": "bri-liv-34",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16942,7 +16942,7 @@
     {
       "id": "bri-ser-36",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -16986,7 +16986,7 @@
     {
       "id": "bri-unc-38",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17030,7 +17030,7 @@
     {
       "id": "bri-ter-40",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17113,7 +17113,7 @@
     {
       "id": "bri-liv-45",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17157,7 +17157,7 @@
     {
       "id": "bri-ser-47",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17201,7 +17201,7 @@
     {
       "id": "bri-unc-49",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17245,7 +17245,7 @@
     {
       "id": "bri-ter-51",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17328,7 +17328,7 @@
     {
       "id": "bri-pat-56",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17411,7 +17411,7 @@
     {
       "id": "bri-liv-61",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17455,7 +17455,7 @@
     {
       "id": "bri-ser-63",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17499,7 +17499,7 @@
     {
       "id": "bri-unc-65",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17543,7 +17543,7 @@
     {
       "id": "bri-ter-67",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17587,7 +17587,7 @@
     {
       "id": "bri-tra-69",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -17615,7 +17615,7 @@
     {
       "id": "bri-pat-70",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17698,7 +17698,7 @@
     {
       "id": "bri-liv-75",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17768,7 +17768,7 @@
     {
       "id": "bri-ter-79",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17812,7 +17812,7 @@
     {
       "id": "bri-pri-81",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17869,7 +17869,7 @@
     {
       "id": "bri-liv-84",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17939,7 +17939,7 @@
     {
       "id": "bri-ter-88",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -17983,7 +17983,7 @@
     {
       "id": "bri-liv-90",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18011,7 +18011,7 @@
     {
       "id": "bri-ped-91",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18039,7 +18039,7 @@
     {
       "id": "bri-unc-92",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18083,7 +18083,7 @@
     {
       "id": "bri-ter-94",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18111,7 +18111,7 @@
     {
       "id": "bri-sec-95",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18155,7 +18155,7 @@
     {
       "id": "bri-tru-97",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18199,7 +18199,7 @@
     {
       "id": "bri-ter-99",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18227,7 +18227,7 @@
     {
       "id": "bri-sec-100",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18255,7 +18255,7 @@
     {
       "id": "bri-pri-101",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18283,7 +18283,7 @@
     {
       "id": "bri-tru-102",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18311,7 +18311,7 @@
     {
       "id": "bri-mot-103",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18339,7 +18339,7 @@
     {
       "id": "bri-tra-104",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18372,7 +18372,7 @@
     {
       "id": "bri-pat-105",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18455,7 +18455,7 @@
     {
       "id": "bri-pat-110",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18538,7 +18538,7 @@
     {
       "id": "bri-pat-115",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18621,7 +18621,7 @@
     {
       "id": "bri-tra-120",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18649,7 +18649,7 @@
     {
       "id": "bri-pat-121",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18732,7 +18732,7 @@
     {
       "id": "bri-fun-126",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -18796,7 +18796,7 @@
     {
       "id": "bri-tra-128",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18834,7 +18834,7 @@
     {
       "id": "bri-lig-129",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18872,7 +18872,7 @@
     {
       "id": "bri-sub-130",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18910,7 +18910,7 @@
     {
       "id": "bri-nar-131",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18948,7 +18948,7 @@
     {
       "id": "bri-nar-132",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -18986,7 +18986,7 @@
     {
       "id": "bri-rai-136",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19035,7 +19035,7 @@
     {
       "id": "bri-rai-141",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19084,7 +19084,7 @@
     {
       "id": "bri-ser-144",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19117,7 +19117,7 @@
     {
       "id": "bri-mot-145",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19150,7 +19150,7 @@
     {
       "id": "bri-ser-146",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19183,7 +19183,7 @@
     {
       "id": "bri-mot-147",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19216,7 +19216,7 @@
     {
       "id": "bri-ser-148",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19249,7 +19249,7 @@
     {
       "id": "bri-mot-149",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19282,7 +19282,7 @@
     {
       "id": "bri-ser-150",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19315,7 +19315,7 @@
     {
       "id": "bri-tra-151",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19423,7 +19423,7 @@
     {
       "id": "bri-tra-156",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19457,7 +19457,7 @@
     {
       "id": "bri-ser-157",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19490,7 +19490,7 @@
     {
       "id": "bri-mot-158",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19523,7 +19523,7 @@
     {
       "id": "bri-mot-159",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19556,7 +19556,7 @@
     {
       "id": "bri-mot-160",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19589,7 +19589,7 @@
     {
       "id": "bri-unc-161",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19633,7 +19633,7 @@
     {
       "id": "bri-rac-163",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19661,7 +19661,7 @@
     {
       "id": "bri-rac-164",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19689,7 +19689,7 @@
     {
       "id": "bri-ped-165",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19717,7 +19717,7 @@
     {
       "id": "bri-ser-166",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19761,7 +19761,7 @@
     {
       "id": "bri-liv-168",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -19818,7 +19818,7 @@
     {
       "id": "bri-ter-171",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19846,7 +19846,7 @@
     {
       "id": "bri-sec-172",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19874,7 +19874,7 @@
     {
       "id": "bri-pri-173",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19902,7 +19902,7 @@
     {
       "id": "bri-tru-174",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19930,7 +19930,7 @@
     {
       "id": "bri-mot-175",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19958,7 +19958,7 @@
     {
       "id": "bri-rac-176",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -19986,7 +19986,7 @@
     {
       "id": "bri-ped-177",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20014,7 +20014,7 @@
     {
       "id": "bri-ser-178",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20058,7 +20058,7 @@
     {
       "id": "bri-liv-180",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20115,7 +20115,7 @@
     {
       "id": "bri-ter-183",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20143,7 +20143,7 @@
     {
       "id": "bri-sec-184",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20171,7 +20171,7 @@
     {
       "id": "bri-pri-185",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20199,7 +20199,7 @@
     {
       "id": "bri-tru-186",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20227,7 +20227,7 @@
     {
       "id": "bri-mot-187",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20255,7 +20255,7 @@
     {
       "id": "bri-ped-188",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20283,7 +20283,7 @@
     {
       "id": "bri-ser-189",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20327,7 +20327,7 @@
     {
       "id": "bri-liv-191",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20384,7 +20384,7 @@
     {
       "id": "bri-ter-194",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20412,7 +20412,7 @@
     {
       "id": "bri-sec-195",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20440,7 +20440,7 @@
     {
       "id": "bri-pri-196",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20468,7 +20468,7 @@
     {
       "id": "bri-tru-197",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20496,7 +20496,7 @@
     {
       "id": "bri-mot-198",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20524,7 +20524,7 @@
     {
       "id": "bri-tax-199",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20552,7 +20552,7 @@
     {
       "id": "bri-run-200",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20580,7 +20580,7 @@
     {
       "id": "bri-pla-201",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20608,7 +20608,7 @@
     {
       "id": "bri-ped-202",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20636,7 +20636,7 @@
     {
       "id": "bri-ser-203",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20680,7 +20680,7 @@
     {
       "id": "bri-liv-205",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20737,7 +20737,7 @@
     {
       "id": "bri-ter-208",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20765,7 +20765,7 @@
     {
       "id": "bri-sec-209",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20793,7 +20793,7 @@
     {
       "id": "bri-tax-210",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20821,7 +20821,7 @@
     {
       "id": "bri-run-211",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20849,7 +20849,7 @@
     {
       "id": "bri-tra-212",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20878,7 +20878,7 @@
     {
       "id": "bri-pat-213",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -20965,7 +20965,7 @@
     {
       "id": "bri-rac-218",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -20993,7 +20993,7 @@
     {
       "id": "bri-ped-219",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21021,7 +21021,7 @@
     {
       "id": "bri-roa-220",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21049,7 +21049,7 @@
     {
       "id": "bri-liv-221",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21106,7 +21106,7 @@
     {
       "id": "bri-ter-224",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21134,7 +21134,7 @@
     {
       "id": "bri-sec-225",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21162,7 +21162,7 @@
     {
       "id": "bri-pri-226",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21190,7 +21190,7 @@
     {
       "id": "bri-tru-227",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21218,7 +21218,7 @@
     {
       "id": "bri-mot-228",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21246,7 +21246,7 @@
     {
       "id": "bri-fun-229",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21290,7 +21290,7 @@
     {
       "id": "bri-tax-231",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21318,7 +21318,7 @@
     {
       "id": "bri-run-232",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21346,7 +21346,7 @@
     {
       "id": "bri-rac-233",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21374,7 +21374,7 @@
     {
       "id": "bri-ped-234",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21444,7 +21444,7 @@
     {
       "id": "bri-ter-238",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21472,7 +21472,7 @@
     {
       "id": "bri-sec-239",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21500,7 +21500,7 @@
     {
       "id": "bri-tra-240",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21528,7 +21528,7 @@
     {
       "id": "bri-tax-241",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21556,7 +21556,7 @@
     {
       "id": "bri-run-242",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21584,7 +21584,7 @@
     {
       "id": "bri-rac-243",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21612,7 +21612,7 @@
     {
       "id": "bri-ped-244",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21656,7 +21656,7 @@
     {
       "id": "bri-unc-246",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21700,7 +21700,7 @@
     {
       "id": "bri-ter-248",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21728,7 +21728,7 @@
     {
       "id": "bri-sec-249",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21756,7 +21756,7 @@
     {
       "id": "bri-pri-250",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21784,7 +21784,7 @@
     {
       "id": "bri-tru-251",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21812,7 +21812,7 @@
     {
       "id": "bri-mot-252",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21840,7 +21840,7 @@
     {
       "id": "bri-lig-253",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "any",
@@ -21897,7 +21897,7 @@
     {
       "id": "bri-run-256",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21925,7 +21925,7 @@
     {
       "id": "bri-rac-257",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21953,7 +21953,7 @@
     {
       "id": "bri-ter-258",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -21981,7 +21981,7 @@
     {
       "id": "bri-sec-259",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22009,7 +22009,7 @@
     {
       "id": "bri-pri-260",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22037,7 +22037,7 @@
     {
       "id": "bri-tru-261",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22065,7 +22065,7 @@
     {
       "id": "bri-mot-262",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22093,7 +22093,7 @@
     {
       "id": "bri-run-263",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22121,7 +22121,7 @@
     {
       "id": "bri-sec-264",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22149,7 +22149,7 @@
     {
       "id": "bri-pri-265",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22177,7 +22177,7 @@
     {
       "id": "bri-tru-266",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22205,7 +22205,7 @@
     {
       "id": "bri-nar-267",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22233,7 +22233,7 @@
     {
       "id": "bri-ter-268",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22261,7 +22261,7 @@
     {
       "id": "bri-sec-269",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22289,7 +22289,7 @@
     {
       "id": "bri-pri-270",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22317,7 +22317,7 @@
     {
       "id": "bri-tru-271",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22345,7 +22345,7 @@
     {
       "id": "bri-sec-272",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22373,7 +22373,7 @@
     {
       "id": "bri-pri-273",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22401,7 +22401,7 @@
     {
       "id": "bri-tru-274",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22429,7 +22429,7 @@
     {
       "id": "bri-pri-275",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22457,7 +22457,7 @@
     {
       "id": "bri-tru-276",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22485,7 +22485,7 @@
     {
       "id": "bri-tru-277",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22513,7 +22513,7 @@
     {
       "id": "bri-tru-278",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "streets",
       "filter": [
         "all",
@@ -22541,7 +22541,7 @@
     {
       "id": "bou-lab-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundary_labels",
       "filter": [
         "all",
@@ -22579,7 +22579,7 @@
     {
       "id": "bou-lab-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "boundary_labels",
       "filter": [
         "all",
@@ -22617,7 +22617,7 @@
     {
       "id": "pla-lab-sta-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -22665,7 +22665,7 @@
     {
       "id": "pla-lab-sta-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -22713,7 +22713,7 @@
     {
       "id": "pla-lab-sta-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -22761,7 +22761,7 @@
     {
       "id": "pla-lab-sta-3",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -22815,7 +22815,7 @@
     {
       "id": "pla-lab-sta-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -22858,7 +22858,7 @@
     {
       "id": "pla-lab-cit-6",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -22920,7 +22920,7 @@
     {
       "id": "pla-lab-cit-9",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -22982,7 +22982,7 @@
     {
       "id": "pla-lab-cit-12",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23044,7 +23044,7 @@
     {
       "id": "pla-lab-cap-15",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23087,7 +23087,7 @@
     {
       "id": "pla-lab-far-16",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23147,7 +23147,7 @@
     {
       "id": "pla-lab-vil-20",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23191,7 +23191,7 @@
     {
       "id": "pla-lab-far-22",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23251,7 +23251,7 @@
     {
       "id": "pla-lab-vil-26",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23295,7 +23295,7 @@
     {
       "id": "pla-lab-vil-28",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23339,7 +23339,7 @@
     {
       "id": "pla-lab-tow-30",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23372,7 +23372,7 @@
     {
       "id": "pla-lab-vil-31",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23416,7 +23416,7 @@
     {
       "id": "pla-lab-vil-33",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "any",
@@ -23460,7 +23460,7 @@
     {
       "id": "pla-lab-tow-35",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23493,7 +23493,7 @@
     {
       "id": "pla-lab-tow-36",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23526,7 +23526,7 @@
     {
       "id": "pla-lab-isl-37",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23559,7 +23559,7 @@
     {
       "id": "pla-lab-tow-38",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "place_labels",
       "filter": [
         "all",
@@ -23592,7 +23592,7 @@
     {
       "id": "str-shi-pri-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23653,7 +23653,7 @@
     {
       "id": "str-shi-tru-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23714,7 +23714,7 @@
     {
       "id": "str-shi-mot-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23775,7 +23775,7 @@
     {
       "id": "str-lab-pri-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23834,7 +23834,7 @@
     {
       "id": "str-lab-tru-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23893,7 +23893,7 @@
     {
       "id": "str-lab-mot-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -23952,7 +23952,7 @@
     {
       "id": "str-lab-ped-3",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24019,7 +24019,7 @@
     {
       "id": "str-lab-roa-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24100,7 +24100,7 @@
     {
       "id": "str-lab-ter-8",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24206,7 +24206,7 @@
     {
       "id": "str-lab-ped-13",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24299,7 +24299,7 @@
     {
       "id": "str-lab-roa-17",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24380,7 +24380,7 @@
     {
       "id": "str-lab-ter-20",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24486,7 +24486,7 @@
     {
       "id": "str-lab-ped-25",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24553,7 +24553,7 @@
     {
       "id": "str-lab-ser-27",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24624,7 +24624,7 @@
     {
       "id": "str-lab-roa-29",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24704,7 +24704,7 @@
     {
       "id": "str-lab-ped-32",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24814,7 +24814,7 @@
     {
       "id": "str-lab-ter-37",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -24869,7 +24869,7 @@
     {
       "id": "str-lab-sec-38",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -24962,7 +24962,7 @@
     {
       "id": "str-lab-sec-42",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -25055,7 +25055,7 @@
     {
       "id": "str-lab-sec-46",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "all",
@@ -25110,7 +25110,7 @@
     {
       "id": "str-lab-pri-47",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels",
       "filter": [
         "any",
@@ -25191,7 +25191,7 @@
     {
       "id": "str-lab-poi-mot-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25212,7 +25212,7 @@
     {
       "id": "str-lab-poi-mot-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25233,7 +25233,7 @@
     {
       "id": "str-lab-poi-mot-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25266,7 +25266,7 @@
     {
       "id": "str-lab-poi-mot-3",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25299,7 +25299,7 @@
     {
       "id": "str-lab-poi-mot-4",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25332,7 +25332,7 @@
     {
       "id": "str-lab-poi-mot-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "street_labels_points",
       "filter": [
         "all",
@@ -25365,7 +25365,7 @@
     {
       "id": "wat-lin-lab-dit-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines_labels",
       "filter": [
         "all",
@@ -25415,7 +25415,7 @@
     {
       "id": "wat-lin-lab-dra-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines_labels",
       "filter": [
         "any",
@@ -25476,7 +25476,7 @@
     {
       "id": "wat-lin-lab-can-3",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines_labels",
       "filter": [
         "all",
@@ -25525,7 +25525,7 @@
     {
       "id": "wat-lin-lab-riv-4",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines_labels",
       "filter": [
         "all",
@@ -25575,7 +25575,7 @@
     {
       "id": "wat-lin-lab-riv-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_lines_labels",
       "filter": [
         "all",
@@ -25625,7 +25625,7 @@
     {
       "id": "wat-pol-lab-wat-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons_labels",
       "filter": [
         "all",
@@ -25658,7 +25658,7 @@
     {
       "id": "wat-pol-lab-gla-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "water_polygons_labels",
       "filter": [
         "all",
@@ -25691,7 +25691,7 @@
     {
       "id": "aer-rop-0",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "aerialways",
       "filter": [
         "all",
@@ -25714,7 +25714,7 @@
     {
       "id": "aer-pla-1",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "aerialways",
       "filter": [
         "any",
@@ -25780,7 +25780,7 @@
     {
       "id": "aer-gon-7",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "aerialways",
       "filter": [
         "all",
@@ -25803,7 +25803,7 @@
     {
       "id": "aer-cab-8",
       "type": "line",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "aerialways",
       "filter": [
         "all",
@@ -25826,7 +25826,7 @@
     {
       "id": "pub-tra-tra-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -25861,7 +25861,7 @@
     {
       "id": "pub-tra-hal-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -25896,7 +25896,7 @@
     {
       "id": "pub-tra-tra-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "any",
@@ -25930,7 +25930,7 @@
     {
       "id": "pub-tra-sta-4",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -25965,7 +25965,7 @@
     {
       "id": "pub-tra-sta-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -25988,7 +25988,7 @@
     {
       "id": "pub-tra-aer-6",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -26022,7 +26022,7 @@
     {
       "id": "pub-tra-aer-7",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -26057,7 +26057,7 @@
     {
       "id": "pub-tra-aer-8",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -26092,7 +26092,7 @@
     {
       "id": "pub-tra-aer-9",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "public_transport",
       "filter": [
         "all",
@@ -26115,7 +26115,7 @@
     {
       "id": "add-0",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"
@@ -26131,7 +26131,7 @@
     {
       "id": "add-1",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"
@@ -26147,7 +26147,7 @@
     {
       "id": "add-2",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"
@@ -26175,7 +26175,7 @@
     {
       "id": "add-3",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"
@@ -26203,7 +26203,7 @@
     {
       "id": "add-4",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"
@@ -26231,7 +26231,7 @@
     {
       "id": "add-5",
       "type": "symbol",
-      "source": "opencloudtiles",
+      "source": "versatiles",
       "source-layer": "addresses",
       "filter": [
         "all"

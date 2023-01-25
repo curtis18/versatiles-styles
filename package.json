@@ -1,6 +1,6 @@
 {
-  "name": "opencloudtiles-styles",
-  "version": "0.0.4",
+  "name": "versatiles-styles",
+  "version": "0.0.5",
   "scripts": {
     "generate": "bin/generate.sh",
     "release": "bin/release.sh"
