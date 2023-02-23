@@ -1,8 +1,7 @@
 name: Release styles
 on:
   release:
-    types: [prereleased]
-  workflow_dispatch:
+    types: [published]
 
 jobs:
   release:
@@ -14,9 +13,6 @@ jobs:
       - name: Get Repo
         uses: actions/checkout@v3
 
-      - name: Get latest version
-        run: echo "TAG=$(curl -s 'https://api.github.com/repos/versatiles-org/versatiles-styles/releases/latest' | jq -r '.tag_name')" >> $GITHUB_ENV
-
       - name: Generate glyphs
         run: npm install; npm run generate
 
@@ -24,7 +20,4 @@ jobs:
         run: npm run release
 
       - name: Add file to release
-        run: gh release upload $TAG dist/styles.tar.gz --clobber
-      
-      - name: Finalise release
-        run: gh release edit $TAG --prerelease=false
+        run: gh release upload $GITHUB_REF dist/styles.tar.gz --clobber
