@@ -1,6 +1,7 @@
 name: Release styles
 on:
   release:
+    types: [prereleased]
   workflow_dispatch:
 
 jobs:
@@ -26,4 +27,4 @@ jobs:
         run: gh release upload $TAG dist/styles.tar.gz --clobber
       
       - name: Finalise release
-        run: gh release edit $TAG --latest --draft=false
+        run: gh release edit $TAG --prerelease=false
