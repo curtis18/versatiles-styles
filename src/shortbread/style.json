@@ -2,6 +2,8 @@
 	"version": 8,
 	"id": "shortbread",
 	"name": "shortbread-colors",
+	"glyphs": "/assets/fonts/{fontstack}/{range}.pbf",
+	"sprites": "./",
 	"sources": {
 		"versatiles-shortbread": {
 			"tilejson": "3.0.0",
@@ -10,9 +12,8 @@
 			"description": "Vector Tiles with Shortbread Scheme",
 			"type": "vector",
 			"scheme": "xyz",
-			"tiles": ["https://tiles.versatiles.org/tiles/osm/{z}/{y}/{x}"],
-			"minZoom": 0,
-			"maxZoom": 14,
+			"tiles": ["/tiles/osm/{z}/{y}/{x}"],
+			"minzoom": 0,
 			"maxzoom": 14,
 			"fillzoom": 14,
 			"bounds": [-180, -85.0511287798066, 180, 85.0511287798066],
@@ -223,8 +224,6 @@
 			]
 		}
 	},
-	"sprite": "https://tiles.versatiles.org/sprites/sprites",
-	"glyphs": "https://tiles.versatiles.org/fonts/{fontstack}/{range}.pbf",
 	"layers": [
 		{
 			"id": "background",
@@ -1957,7 +1956,7 @@
 				"icon-size": 1,
 				"symbol-placement": "line",
 				"symbol-spacing": 760,
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "ref"],
 				"text-size": 10,
 				"text-rotation-alignment": "viewport",
@@ -1990,7 +1989,7 @@
 				"icon-size": 1,
 				"symbol-placement": "line",
 				"symbol-spacing": 760,
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "ref"],
 				"text-size": 10,
 				"text-rotation-alignment": "viewport",
@@ -2019,7 +2018,7 @@
 				"icon-size": 1,
 				"symbol-placement": "line",
 				"symbol-spacing": 760,
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "ref"],
 				"text-size": 10,
 				"text-rotation-alignment": "viewport",
@@ -2036,7 +2035,7 @@
 			"filter": ["all", ["==", "kind", "motorway_junction"]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "ref"],
 				"text-size": {"stops": [[12, 10], [15, 11]]},
 				"visibility": "visible",
@@ -2059,7 +2058,7 @@
 			"filter": ["all", ["==", "kind", "motorway_junction"]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -2083,7 +2082,7 @@
 			],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"visibility": "visible",
 				"text-size": {"stops": [[13, 8], [14, 9], [15, 10], [17, 11], [19, 12]]},
@@ -2102,7 +2101,7 @@
 			"filter": ["all", ["==", "kind", "tertiary"], ["!=", "name", ""]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"visibility": "visible",
 				"text-size": {"stops": [[15, 9], [17, 11], [19, 12]]}
@@ -2130,7 +2129,7 @@
 			],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"visibility": "visible",
 				"text-size": {"stops": [[15, 8], [16, 9], [17, 11], [19, 12]]}
@@ -2146,7 +2145,7 @@
 			"filter": ["all", ["in", "kind", "service", "raceway"], ["!=", "name", ""]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"visibility": "visible",
 				"text-size": {"stops": [[16, 9], [17, 11]]}
@@ -2860,7 +2859,7 @@
 			"filter": ["all", ["==", "kind", "island"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2877,7 +2876,7 @@
 			"filter": ["all", ["==", "kind", "farm"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2894,7 +2893,7 @@
 			"filter": ["all", ["==", "kind", "isolated_dwelling"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2911,7 +2910,7 @@
 			"filter": ["all", ["==", "kind", "neighbourhood"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2928,7 +2927,7 @@
 			"filter": ["all", ["==", "kind", "locality"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2945,7 +2944,7 @@
 			"filter": ["all", ["==", "kind", "hamlet"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2962,7 +2961,7 @@
 			"filter": ["all", ["==", "kind", "quarter"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2979,7 +2978,7 @@
 			"filter": ["all", ["==", "kind", "suburb"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -2996,7 +2995,7 @@
 			"filter": ["all", ["==", "kind", "village"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -3013,7 +3012,7 @@
 			"filter": ["all", ["==", "kind", "town"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -3030,7 +3029,7 @@
 			"filter": ["all", ["==", "kind", "city"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -3047,7 +3046,7 @@
 			"filter": ["all", ["==", "kind", "state_capital"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -3064,7 +3063,7 @@
 			"filter": ["all", ["==", "kind", "capital"]],
 			"layout": {
 				"visibility": "visible",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-line-height": 1.1,
 				"text-max-width": 3,
@@ -3081,7 +3080,7 @@
 			"filter": ["all", ["==", "admin_level", "4"], [">", "way_area", 10000]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": {"stops": [[6, 10], [11, 20]]},
 				"visibility": "visible"
@@ -3098,7 +3097,7 @@
 			"filter": ["all", ["==", "admin_level", "2"], [">", "way_area", 1000000]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": {"stops": [[3, 10], [11, 20]]},
 				"visibility": "visible"
@@ -3114,7 +3113,7 @@
 			"filter": ["all", ["==", "kind", "water"]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3129,7 +3128,7 @@
 			"filter": ["all", ["==", "kind", "ditch"]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"text-padding": 600,
 				"text-size": 10,
@@ -3146,7 +3145,7 @@
 			"filter": ["all", ["==", "kind", "canal"]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3166,7 +3165,7 @@
 			"filter": ["all", ["==", "kind", "river"]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"text-padding": 400,
 				"text-size": {"stops": [[13, 10], [14, 12]]},
@@ -3183,7 +3182,7 @@
 			"filter": ["all", ["in", "kind", "stream", "drain"]],
 			"layout": {
 				"symbol-placement": "line",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["concat", ["get", "name"], ["literal", " "], ["get", "ref"]],
 				"text-padding": 600,
 				"text-size": 10,
@@ -3200,7 +3199,7 @@
 			"filter": ["all", ["==", "kind", "glacier"]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3239,7 +3238,7 @@
 				"icon-size": 0.25,
 				"symbol-placement": "point",
 				"text-field": ["get", "name"],
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-size": 10,
 				"visibility": "visible"
 			}
@@ -3255,7 +3254,7 @@
 				"icon-image": "square",
 				"icon-size": 0.25,
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3271,7 +3270,7 @@
 			"layout": {
 				"icon-image": "aerodrome.12",
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3288,7 +3287,7 @@
 				"icon-image": "square",
 				"icon-size": 0.25,
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": ["get", "name"],
 				"text-size": 10,
 				"visibility": "visible"
@@ -3303,7 +3302,7 @@
 			"filter": ["all", ["!=", "name", ""]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": "{number}",
 				"text-size": {"stops": [[17, 10], [22, 11]]},
 				"visibility": "visible",
@@ -3324,7 +3323,7 @@
 			"filter": ["all", ["==", "number", ""]],
 			"layout": {
 				"symbol-placement": "point",
-				"text-font": ["Open Sans Regular"],
+				"text-font": ["open_sans_regular"],
 				"text-field": "{name}",
 				"text-size": {"stops": [[17, 10], [22, 11]]},
 				"visibility": "visible"
