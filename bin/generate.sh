@@ -5,8 +5,12 @@ set -e
 cd ..
 
 rm -rf dist || true
-mkdir dist
 
-echo " -> copy styles"
-mkdir dist/styles
-cp -R src/* dist/styles/
+function copy {
+	echo " -> copy $1"
+	mkdir -p dist/styles/$1/
+	cp -X src/$1/*.* dist/styles/$1/
+}
+
+copy neutrino
+copy shortbread
