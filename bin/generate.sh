@@ -14,3 +14,5 @@ function copy {
 
 copy neutrino
 copy shortbread
+
+find dist -name "*.json" -exec node bin/minify.js {} +

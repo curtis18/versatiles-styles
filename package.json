@@ -5,6 +5,7 @@
     "generate": "bin/generate.sh",
     "release": "bin/release.sh"
   },
+  "type": "module",
   "dependencies": {
   }
 }
