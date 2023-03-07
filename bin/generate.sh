@@ -15,5 +15,4 @@ for i in ${!styles[@]}; do
 
 	mkdir -p dist/styles/$style/
 	cp -X src/$style/*.* dist/styles/$style/
-	node bin/process_style.js dist/styles/$style/style.json
 done
