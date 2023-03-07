@@ -14,5 +14,5 @@ for i in ${!styles[@]}; do
 	echo " -> copy $style"
 
 	mkdir -p dist/styles/$style/
-	cp -X src/$style/*.* dist/styles/$style/
+	cp src/$style/*.* dist/styles/$style/
 done
