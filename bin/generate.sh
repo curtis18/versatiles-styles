@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 cd "$(dirname "$0")"
 set -e
 
@@ -6,13 +6,14 @@ cd ..
 
 rm -rf dist || true
 
-function copy {
-	echo " -> copy $1"
-	mkdir -p dist/styles/$1/
-	cp -X src/$1/*.* dist/styles/$1/
-	node bin/minify.js dist/styles/$1/style.json
-}
+styles=(eclipse neutrino shortbread)
 
-copy eclipse
-copy neutrino
-copy shortbread
+for i in ${!styles[@]}; do
+	style=${styles[$i]}
+
+	echo " -> copy $style"
+
+	mkdir -p dist/styles/$style/
+	cp -X src/$style/*.* dist/styles/$style/
+	node bin/process_style.js dist/styles/$style/style.json
+done
