@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "scripts": {
     "generate": "bin/generate.sh",
-    "release": "bin/release.sh"
+    "release": "bin/generate.sh && bin/release.sh"
   },
   "dependencies": {}
 }
